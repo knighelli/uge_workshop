@@ -17,6 +17,8 @@
 
 - > overwrites a file, >> appends
 
+- In case you want to use sublime late, subl . opens up every editable file in the directory in a tree for easy access
+
 Git -- MODIFY ADD COMMIT
 
 git init - do it only in the directory where your project is. initializes a new git repository
@@ -35,5 +37,7 @@ Kimberlees-Mac:uge_workshop knighelli$ git commit -m 'add unix notes'
  create mode 100644 unix_notes.txt
 
 83d1fd6 is the id for the commit
+
+git checkout - Reverts the file to the last version of the file that is living in the .git directory. 
 
 git log - the log. 
