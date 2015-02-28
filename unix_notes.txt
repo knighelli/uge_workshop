@@ -44,4 +44,28 @@ git reset HEAD [file] - Takes it the file our of the staging area.
 
 git st - git st is the same as git status but shorter- seems like an alias
 
-git log - the log. 
+git ll - git log in normal ll format - another alias
+
+git la - Long ass log alias
+
+git log - the log.
+
+HEAD/branch information:
+
+Master is a branch! 
+
+To make a new branch/label -- git branch [name]
+
+Kimberlees-Mac:uge_workshop knighelli$ git branch
+  git-notes
+* master
+ The * is the active branch
+
+git checkout [branch you want to be the active one]
+
+Kimberlees-Mac:uge_workshop knighelli$ git checkout git-notes
+M	unix_notes.txt
+Switched to branch 'git-notes'
+Kimberlees-Mac:uge_workshop knighelli$ git branch
+* git-notes
+  master 
