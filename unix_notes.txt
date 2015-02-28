@@ -40,4 +40,8 @@ Kimberlees-Mac:uge_workshop knighelli$ git commit -m 'add unix notes'
 
 git checkout - Reverts the file to the last version of the file that is living in the .git directory. 
 
+git reset HEAD [file] - Takes it the file our of the staging area.
+
+git st - git st is the same as git status but shorter- seems like an alias
+
 git log - the log. 
