@@ -17,7 +17,7 @@
 
 - > overwrites a file, >> appends
 
-Git
+Git -- MODIFY ADD COMMIT
 
 git init - do it only in the directory where your project is. initializes a new git repository
 Kimberlees-Mac:uge_workshop knighelli$ git init
