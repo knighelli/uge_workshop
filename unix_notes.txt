@@ -1,0 +1,28 @@
+  492  brew update --> Checks for updates in brew
+  493  brew doctor --> Check current health of brew
+  496  brew install fish
+  497  echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+  498  chsh -s /usr/local/bin/fish -- > Changed default shell. Did not like.
+  502  git config --list
+  504  curl -fsSL http://git.io/QxUaOQ | sh
+  505  vi .gitconfig 
+  512  echo $PATH
+  514  vi /etc/paths
+  614  history | sort | less
+  615  history > this_is_the_history.txt
+
+- man is manual
+
+-The shell is the user interface to the kernal but hinders direct contact with it.
+
+- > overwrites a file, >> appends
+
+Git
+
+git init - do it only in the directory where your project is. initializes a new git repository
+Kimberlees-Mac:uge_workshop knighelli$ git init
+Initialized empty Git repository in /Users/knighelli/uge_workshop/.git/
+
+git status - gives us the status of the repository. Will show if there is an untracked file (not in the repo).
+
+git add - adds a file to to the staging area. repository 
