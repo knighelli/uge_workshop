@@ -49,4 +49,4 @@ Kimberlees-Mac:uge_workshop knighelli$ git branch
 * git-notes
   master
 
-..``
+git merge git-notes - I was in the master branch. Merged the master and git-notes branches
