@@ -49,4 +49,8 @@ Kimberlees-Mac:uge_workshop knighelli$ git branch
 * git-notes
   master
 
+<<<<<<< HEAD
 edit for pull request
+=======
+git merge git-notes - I was located the master branch. Merged the master and git-notes branches
+>>>>>>> master

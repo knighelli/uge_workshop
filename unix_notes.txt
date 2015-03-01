@@ -19,29 +19,3 @@
 
 - In case you want to use sublime late, subl . opens up every editable file in the directory in a tree for easy access
 
-Git -- MODIFY ADD COMMIT
-
-git init - do it only in the directory where your project is. initializes a new git repository
-Kimberlees-Mac:uge_workshop knighelli$ git init
-Initialized empty Git repository in /Users/knighelli/uge_workshop/.git/
-
-git status - gives us the status of the repository. Will show if there is an untracked file (not in the repo).
-
-git add - adds a file to to the staging area. repository
-
-git commit - commits the file. We use the command 'git commit -m 'SOME NOTE'' to describe what we're doing.  
-
-Kimberlees-Mac:uge_workshop knighelli$ git commit -m 'add unix notes'
-[master (root-commit) 83d1fd6] add unix notes
- 1 file changed, 28 insertions(+)
- create mode 100644 unix_notes.txt
-
-83d1fd6 is the id for the commit
-
-git checkout - Reverts the file to the last version of the file that is living in the .git directory. 
-
-git reset HEAD [file] - Takes it the file our of the staging area.
-
-git st - git st is the same as git status but shorter- seems like an alias
-
-git log - the log. 
