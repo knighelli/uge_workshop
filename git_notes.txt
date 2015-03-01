@@ -49,6 +49,8 @@ Kimberlees-Mac:uge_workshop knighelli$ git branch
 * git-notes
   master
 
+git branch -d [branch name] - delete the branch
+
 <<<<<<< HEAD
 edit for pull request
 =======
